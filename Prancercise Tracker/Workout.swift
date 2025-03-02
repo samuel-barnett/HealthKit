@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2017 Razeware LLC
+ * Copyright (c) 2018 Razeware LLC
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,8 +30,7 @@
 
 import Foundation
 
-struct PrancerciseWorkout {
-  
+struct PrancerciseWorkoutInterval {
   var start: Date
   var end: Date
   
@@ -45,13 +44,33 @@ struct PrancerciseWorkout {
   }
   
   var totalEnergyBurned: Double {
-    
     let prancerciseCaloriesPerHour: Double = 450
-    
     let hours: Double = duration/3600
-    
-    let totalCalories = prancerciseCaloriesPerHour*hours
-    
+    let totalCalories = prancerciseCaloriesPerHour * hours
     return totalCalories
+  }
+}
+
+struct PrancerciseWorkout {
+  var start: Date
+  var end: Date
+  var intervals: [PrancerciseWorkoutInterval]
+  
+  init(with intervals: [PrancerciseWorkoutInterval]) {
+    self.start = intervals.first!.start
+    self.end = intervals.last!.end
+    self.intervals = intervals
+  }
+  
+  var totalEnergyBurned: Double {
+    return intervals.reduce(0) { (result, interval) in
+      result + interval.totalEnergyBurned
+    }
+  }
+  
+  var duration: TimeInterval {
+    return intervals.reduce(0) { (result, interval) in
+      result + interval.duration
+    }
   }
 }

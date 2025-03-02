@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F270C321EBE47EB0075412F /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F270C311EBE47EB0075412F /* WorkoutSession.swift */; };
-		AC891D731EDDBDC500A0F84A /* WorkoutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC891D721EDDBDC500A0F84A /* WorkoutDataStore.swift */; };
+		555EB8552110CFA100ED0AB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555EB8532110CFA100ED0AB7 /* LaunchScreen.storyboard */; };
+		AC5F98D91EBEBFC600CA4444 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5F98D81EBEBFC600CA4444 /* WorkoutSession.swift */; };
+		AC891D711EDDBCEB00A0F84A /* WorkoutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC891D701EDDBCEB00A0F84A /* WorkoutDataStore.swift */; };
 		AC8EABE61EAEA833002DD041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8EABE51EAEA833002DD041 /* Assets.xcassets */; };
 		AC8EABE81EAEA83F002DD041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EABE71EAEA83F002DD041 /* AppDelegate.swift */; };
 		AC8EABED1EAEA855002DD041 /* CreateWorkoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EABE91EAEA855002DD041 /* CreateWorkoutTableViewController.swift */; };
@@ -21,14 +22,15 @@
 		AC8EABFA1EAEA895002DD041 /* HKBloodType+StringRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EABF81EAEA895002DD041 /* HKBloodType+StringRepresentation.swift */; };
 		AC8EABFD1EAEA8B2002DD041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC8EABFB1EAEA8B2002DD041 /* Main.storyboard */; };
 		AC8EAC081EAEA8E5002DD041 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EAC071EAEA8E5002DD041 /* Workout.swift */; };
-		ACF4F9201EB0FFED0031154C /* UserHealthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4F91F1EB0FFED0031154C /* UserHealthProfile.swift */; };
-		ACF4F9261EB215DE0031154C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACF4F9241EB215DE0031154C /* LaunchScreen.xib */; };
+		ACF4F91E1EB0EF310031154C /* UserHealthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4F91D1EB0EF310031154C /* UserHealthProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F270C311EBE47EB0075412F /* WorkoutSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = SOURCE_ROOT; };
+		555EB8542110CFA100ED0AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC1BA50C1EAE5D2F00C99FE3 /* Prancercise Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prancercise Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC891D721EDDBDC500A0F84A /* WorkoutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutDataStore.swift; path = "Prancercise Tracker/WorkoutDataStore.swift"; sourceTree = SOURCE_ROOT; };
+		AC5F98D81EBEBFC600CA4444 /* WorkoutSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutSession.swift; path = "Prancercise Tracker/WorkoutSession.swift"; sourceTree = SOURCE_ROOT; };
+		AC732B651EAEAB940062303D /* Prancercise Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Prancercise Tracker.entitlements"; path = "Prancercise Tracker/Prancercise Tracker.entitlements"; sourceTree = SOURCE_ROOT; };
+		AC891D701EDDBCEB00A0F84A /* WorkoutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutDataStore.swift; path = "Prancercise Tracker/WorkoutDataStore.swift"; sourceTree = SOURCE_ROOT; };
 		AC8EABE51EAEA833002DD041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Prancercise Tracker/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		AC8EABE71EAEA83F002DD041 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Prancercise Tracker/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		AC8EABE91EAEA855002DD041 /* CreateWorkoutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateWorkoutTableViewController.swift; path = "Prancercise Tracker/CreateWorkoutTableViewController.swift"; sourceTree = SOURCE_ROOT; };
@@ -42,9 +44,7 @@
 		AC8EABFC1EAEA8B2002DD041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Prancercise Tracker/Base.lproj/Main.storyboard"; sourceTree = SOURCE_ROOT; };
 		AC8EAC011EAEA8C8002DD041 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Prancercise Tracker/Info.plist"; sourceTree = SOURCE_ROOT; };
 		AC8EAC071EAEA8E5002DD041 /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Workout.swift; path = "Prancercise Tracker/Workout.swift"; sourceTree = SOURCE_ROOT; };
-		ACF4F91F1EB0FFED0031154C /* UserHealthProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserHealthProfile.swift; sourceTree = SOURCE_ROOT; };
-		ACF4F9251EB215DE0031154C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Prancercise Tracker/Base.lproj/LaunchScreen.xib"; sourceTree = SOURCE_ROOT; };
-		B2B763DB2D735D29002A8193 /* Prancercise Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Prancercise Tracker.entitlements"; path = "Prancercise Tracker/Prancercise Tracker.entitlements"; sourceTree = SOURCE_ROOT; };
+		ACF4F91D1EB0EF310031154C /* UserHealthProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserHealthProfile.swift; path = "Prancercise Tracker/UserHealthProfile.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		555EB8562110CFB100ED0AB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EAC011EAEA8C8002DD041 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		555EB8572110CFBC00ED0AB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EABE51EAEA833002DD041 /* Assets.xcassets */,
+				555EB8532110CFA100ED0AB7 /* LaunchScreen.storyboard */,
+				AC8EABFB1EAEA8B2002DD041 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		555EB8582110CFC600ED0AB7 /* Data Stores */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EABF31EAEA86A002DD041 /* ProfileDataStore.swift */,
+				AC891D701EDDBCEB00A0F84A /* WorkoutDataStore.swift */,
+			);
+			name = "Data Stores";
+			sourceTree = "<group>";
+		};
+		555EB8592110CFD100ED0AB7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EABF11EAEA860002DD041 /* HealthKitSetupAssistant.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		AC1BA5031EAE5D2F00C99FE3 = {
 			isa = PBXGroup;
 			children = (
@@ -77,30 +112,26 @@
 		AC1BA50E1EAE5D2F00C99FE3 /* Prancercise Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				B2B763DB2D735D29002A8193 /* Prancercise Tracker.entitlements */,
-				AC1BA52F1EAE5E5400C99FE3 /* View Controllers */,
-				AC8EABDB1EAE88DB002DD041 /* Models */,
 				AC8EABE71EAEA83F002DD041 /* AppDelegate.swift */,
-				AC8EABF11EAEA860002DD041 /* HealthKitSetupAssistant.swift */,
-				AC8EABF31EAEA86A002DD041 /* ProfileDataStore.swift */,
-				AC891D721EDDBDC500A0F84A /* WorkoutDataStore.swift */,
+				AC732B651EAEAB940062303D /* Prancercise Tracker.entitlements */,
+				555EB8582110CFC600ED0AB7 /* Data Stores */,
 				AC8EABDE1EAE9B56002DD041 /* HealthKit Extensions */,
-				AC8EABE51EAEA833002DD041 /* Assets.xcassets */,
-				AC8EABFB1EAEA8B2002DD041 /* Main.storyboard */,
-				ACF4F9241EB215DE0031154C /* LaunchScreen.xib */,
-				AC8EAC011EAEA8C8002DD041 /* Info.plist */,
+				AC8EABDB1EAE88DB002DD041 /* Models */,
+				555EB8592110CFD100ED0AB7 /* Other */,
+				555EB8572110CFBC00ED0AB7 /* Resources */,
+				555EB8562110CFB100ED0AB7 /* Supporting Files */,
+				AC1BA52F1EAE5E5400C99FE3 /* View Controllers */,
 			);
-			name = "Prancercise Tracker";
-			path = "Prancercise Tracker Starter";
+			path = "Prancercise Tracker";
 			sourceTree = "<group>";
 		};
 		AC1BA52F1EAE5E5400C99FE3 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				AC8EABE91EAEA855002DD041 /* CreateWorkoutTableViewController.swift */,
-				AC8EABEC1EAEA855002DD041 /* WorkoutsTableViewController.swift */,
 				AC8EABEA1EAEA855002DD041 /* MasterViewController.swift */,
 				AC8EABEB1EAEA855002DD041 /* ProfileViewController.swift */,
+				AC8EABEC1EAEA855002DD041 /* WorkoutsTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -108,9 +139,9 @@
 		AC8EABDB1EAE88DB002DD041 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ACF4F91D1EB0EF310031154C /* UserHealthProfile.swift */,
 				AC8EAC071EAEA8E5002DD041 /* Workout.swift */,
-				9F270C311EBE47EB0075412F /* WorkoutSession.swift */,
-				ACF4F91F1EB0FFED0031154C /* UserHealthProfile.swift */,
+				AC5F98D81EBEBFC600CA4444 /* WorkoutSession.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -151,14 +182,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Razeware LLC";
 				TargetAttributes = {
 					AC1BA50B1EAE5D2F00C99FE3 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = HZK5A7AT23;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -167,7 +202,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -186,7 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF4F9261EB215DE0031154C /* LaunchScreen.xib in Resources */,
+				555EB8552110CFA100ED0AB7 /* LaunchScreen.storyboard in Resources */,
 				AC8EABFD1EAEA8B2002DD041 /* Main.storyboard in Resources */,
 				AC8EABE61EAEA833002DD041 /* Assets.xcassets in Resources */,
 			);
@@ -199,39 +233,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF4F91E1EB0EF310031154C /* UserHealthProfile.swift in Sources */,
 				AC8EABFA1EAEA895002DD041 /* HKBloodType+StringRepresentation.swift in Sources */,
 				AC8EABF01EAEA855002DD041 /* WorkoutsTableViewController.swift in Sources */,
-				9F270C321EBE47EB0075412F /* WorkoutSession.swift in Sources */,
 				AC8EABED1EAEA855002DD041 /* CreateWorkoutTableViewController.swift in Sources */,
 				AC8EABF21EAEA860002DD041 /* HealthKitSetupAssistant.swift in Sources */,
 				AC8EABF41EAEA86A002DD041 /* ProfileDataStore.swift in Sources */,
-				ACF4F9201EB0FFED0031154C /* UserHealthProfile.swift in Sources */,
 				AC8EABE81EAEA83F002DD041 /* AppDelegate.swift in Sources */,
-				AC891D731EDDBDC500A0F84A /* WorkoutDataStore.swift in Sources */,
 				AC8EABEE1EAEA855002DD041 /* MasterViewController.swift in Sources */,
+				AC891D711EDDBCEB00A0F84A /* WorkoutDataStore.swift in Sources */,
 				AC8EABEF1EAEA855002DD041 /* ProfileViewController.swift in Sources */,
 				AC8EAC081EAEA8E5002DD041 /* Workout.swift in Sources */,
 				AC8EABF91EAEA895002DD041 /* HKBiologicalSex+StringRepresentation.swift in Sources */,
+				AC5F98D91EBEBFC600CA4444 /* WorkoutSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		555EB8532110CFA100ED0AB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555EB8542110CFA100ED0AB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		AC8EABFB1EAEA8B2002DD041 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AC8EABFC1EAEA8B2002DD041 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ACF4F9241EB215DE0031154C /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACF4F9251EB215DE0031154C /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -251,6 +285,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -258,6 +293,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -284,12 +320,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -308,6 +345,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -315,6 +353,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -335,10 +374,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -349,13 +389,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Prancercise Tracker/Prancercise Tracker.entitlements";
-				DEVELOPMENT_TEAM = HZK5A7AT23;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Prancercise Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Razeware.Prancercise-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Prancercise-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -364,13 +403,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Prancercise Tracker/Prancercise Tracker.entitlements";
-				DEVELOPMENT_TEAM = HZK5A7AT23;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Prancercise Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Razeware.Prancercise-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Prancercise-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
